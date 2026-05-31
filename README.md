@@ -4,6 +4,10 @@ Guilherme Henrique de Almeida RM568708 <br>
 João Pedro Amorim de Albuquerque RM573342 <br>
 Kayky Araujo Silva RM 569535 <br>
 
+O projeto atual é um sistema de monitoramento de missão espacial em Python. Usamos o modelo gpt e o llama para gerar dados aleatórios e analisar esses dados, assim classificar a missão em diferentes classificações
+
+Para executar, utilize o arquivo gs_i_a_1_semestre.py ou gs_i_a_1_semestre.ipynb ( Esse, no colab). Apartir do arquivo escolhido, use o 'Manual de Instrução.pdf' para o projeto funcionar, pois ele é o responsavel pelo RAG.
+
 Nesse projeto, pode ser utilizado a LLM Ollama e o GPT. Inicialmente, decidimos utilizar o Ollama, mas ao perceber que ela estava halucinando muito e era extremamente lenta, decidimos utilizar o GPT.
 Usamos algumas metodologias, como: RAG, Multi-Agents, Prompt Engineering: One Shot e o framework LangChain. Nao utilizamos LangGraph pois seria algo extremamente complexo em nosso projeto.
 
@@ -11,8 +15,6 @@ Para completar o desafio, um agente gera os dados aleatoriamente, os demais anal
 
 Em um futuro desenvolvimento desse projeto, poderiamos utilizar langgraph ao inves de langchain e dependendo do status da missao, esse ira tomar as determinadas atituldes utilizamdo o "tools" do 
 langgraph.
-
-Use o 'Manual de Instrução.pdf' para o projeto funcionar!!!
 
 O video do projeto pode ser acessado através do link
 https://youtu.be/p5FGosHopOM
