@@ -1,8 +1,8 @@
 Global Solution - CCPX - 1 Semestre
 
-Guilherme Henrique de Almeida RM568708
-João Pedro Amorim de Albuquerque RM573342
-Kayky Araujo Silva RM 569535
+Guilherme Henrique de Almeida RM568708 <br>
+João Pedro Amorim de Albuquerque RM573342 <br>
+Kayky Araujo Silva RM 569535 <br>
 
 Nesse projeto, pode ser utilizado a LLM Ollama e o GPT. Inicialmente, decidimos utilizar o Ollama, mas ao perceber que ela estava halucinando muito e era extremamente lenta, decidimos utilizar o GPT.
 Usamos algumas metodologias, como: RAG, Multi-Agents, Prompt Engineering: One Shot e o framework LangChain. Nao utilizamos LangGraph pois seria algo extremamente complexo em nosso projeto.
